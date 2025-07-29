@@ -1,0 +1,12 @@
+train: ./train/images
+val: ./train/images  # مؤقتًا يستخدم نفس بيانات التدريب
+
+nc: 2
+names: ['Ground Based', 'Toproof']
+
+roboflow:
+  workspace: moad-uu25n
+  project: communication-tower-yuuf5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/moad-uu25n/communication-tower-yuuf5/dataset/1
